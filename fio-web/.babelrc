@@ -8,5 +8,14 @@
     }],
     "stage-2"
   ],
-  "plugins": ["transform-vue-jsx", "transform-runtime"]
+  //按需引入ant-design-vue
+//  "plugins": [
+//    "transform-vue-jsx",
+//    "transform-runtime",
+//    ["import", { "libraryName": "ant-design-vue", "libraryDirectory": "es", "style": "css" }]
+//  ]
+  "plugins": [
+    "transform-vue-jsx",
+    "transform-runtime"
+  ]
 }

@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <img src="./assets/logo.png">
+    <a-input></a-input>
+    <a-button type="primary">确定</a-button>
     <router-view/>
   </div>
 </template>

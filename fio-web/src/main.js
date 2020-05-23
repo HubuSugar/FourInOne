@@ -3,8 +3,15 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+//全局引入ant-design-vue和样式
+import antdv from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css'
+
 
 Vue.config.productionTip = false
+
+Vue.use(antdv);
+
 
 /* eslint-disable no-new */
 new Vue({
@@ -12,4 +19,4 @@ new Vue({
   router,
   components: { App },
   template: '<App/>'
-})
+});
