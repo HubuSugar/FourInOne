@@ -5,7 +5,7 @@ import App from './App'
 import router from './router'
 //全局引入ant-design-vue和样式
 import antdv from 'ant-design-vue';
-import 'ant-design-vue/dist/antd.css'
+import 'ant-design-vue/dist/antd.less'
 
 
 Vue.config.productionTip = false
